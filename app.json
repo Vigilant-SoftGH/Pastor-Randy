@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "Pastor-Randy-Skeete",
+    "name": "Pastor Randy Sermons",
     "slug": "Pastor-Randy-Skeete",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "assetBundlePatterns": [
@@ -21,10 +21,21 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "versionCode": 1,
+      "package": "com.vigilantsoft.pastorrandy"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f5d359f0-77d8-4b48-bf2c-c5b29a653e14"
+      }
     }
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-8275675203746039~4008674413",
+    "ios_app_id": "ca-app-pub-8275675203746039~4008674413"
   }
 }
